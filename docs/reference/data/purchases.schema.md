@@ -25,7 +25,7 @@ Number of orders has occurred. Purchase is the only required action in a commerc
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | purchases (this schema) |
+| [@id](#id) | `const` | **Required** | purchases (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | purchases (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | purchases (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | purchases (this schema) |

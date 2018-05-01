@@ -21,27 +21,6 @@ The Video class is for video assets, i.e. assets that consist of moving pictures
 
 ```json
 {
-  "repo:assetID": "urn:aaid:a:b:01234578-0123-ABCD-abcd-0123456789ac",
-  "xmp:createDate": "2017-09-26T15:52:25+00:00",
-  "repo:createdDate": "2017-09-26T15:52:25+00:00",
-  "xdm:repositoryCreatedBy": "lars",
-  "xmp:modifyDate": "2017-09-26T15:52:25+00:00",
-  "repo:lastModifiedDate": "2017-09-26T15:52:25+00:00",
-  "xdm:repositoryLastModifiedBy": "2017-09-26T15:52:25+00:00",
-  "repo:version": "15",
-  "repo:size": 1632418,
-  "xdm:path": "here",
-  "repo:etag": "15",
-  "tiff:imageLength": 2160,
-  "tiff:imageWidth": 3840,
-  "xdm:aspectRatio": 1.77777777778,
-  "xdm:extent": 11700000,
-  "xdm:videoFrameRate": "NTSC"
-}
-```
-
-```json
-{
   "repo:assetID": "urn:aaid:a:b:01234578-0123-ABCD-abcd-0123456789ad",
   "xmp:createDate": "2017-09-26T15:52:25+00:00",
   "repo:createdDate": "2017-09-26T15:52:25+00:00",
@@ -58,6 +37,27 @@ The Video class is for video assets, i.e. assets that consist of moving pictures
   "xdm:aspectRatio": 1.77777777778,
   "xdm:extent": 10920000,
   "xdm:videoFrameRate": "f48s1"
+}
+```
+
+```json
+{
+  "repo:assetID": "urn:aaid:a:b:01234578-0123-ABCD-abcd-0123456789ac",
+  "xmp:createDate": "2017-09-26T15:52:25+00:00",
+  "repo:createdDate": "2017-09-26T15:52:25+00:00",
+  "xdm:repositoryCreatedBy": "lars",
+  "xmp:modifyDate": "2017-09-26T15:52:25+00:00",
+  "repo:lastModifiedDate": "2017-09-26T15:52:25+00:00",
+  "xdm:repositoryLastModifiedBy": "2017-09-26T15:52:25+00:00",
+  "repo:version": "15",
+  "repo:size": 1632418,
+  "xdm:path": "here",
+  "repo:etag": "15",
+  "tiff:imageLength": 2160,
+  "tiff:imageWidth": 3840,
+  "xdm:aspectRatio": 1.77777777778,
+  "xdm:extent": 11700000,
+  "xdm:videoFrameRate": "NTSC"
 }
 ```
 
@@ -116,7 +116,7 @@ For licenses that require attribution, such as some Creative Commons licenses, t
 `cc:attributionName`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#cc:attributionName)
+* defined in [Asset](asset.schema.md#ccattributionname)
 
 ### cc:attributionName Type
 
@@ -136,7 +136,7 @@ For licenses that require attribution, such as some Creative Commons licenses, a
 `cc:attributionUrl`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#cc:attributionUrl)
+* defined in [Asset](asset.schema.md#ccattributionurl)
 
 ### cc:attributionUrl Type
 
@@ -157,7 +157,7 @@ A license is a set of requests/permissions to users of a Work, e.g. a copyright 
 `cc:license`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#cc:license)
+* defined in [Asset](asset.schema.md#cclicense)
 
 ### cc:license Type
 
@@ -181,7 +181,7 @@ XMP usage is a list of creators. Entities should be listed in order of decreasin
 * is optional
 * type: `string[]`
 
-* defined in [Asset](asset.schema.md#dc:creator)
+* defined in [Asset](asset.schema.md#dccreator)
 
 ### dc:creator Type
 
@@ -208,7 +208,7 @@ An account of the content of the resource. Description may include but is not li
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#dc:description)
+* defined in [Asset](asset.schema.md#dcdescription)
 
 ### dc:description Type
 
@@ -235,7 +235,7 @@ Languages are specified in language code as defined in [IETF RFC 3066](https://w
 * is optional
 * type: `string[]`
 
-* defined in [Asset](asset.schema.md#dc:language)
+* defined in [Asset](asset.schema.md#dclanguage)
 
 ### dc:language Type
 
@@ -285,7 +285,7 @@ Locale codes should follow IETF BCP 47 standard.
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#dc:rights)
+* defined in [Asset](asset.schema.md#dcrights)
 
 ### dc:rights Type
 
@@ -311,7 +311,7 @@ Set of descriptive phrases or keywords that describe the content of the resource
 * is optional
 * type: `string[]`
 
-* defined in [Asset](asset.schema.md#dc:subject)
+* defined in [Asset](asset.schema.md#dcsubject)
 
 ### dc:subject Type
 
@@ -338,7 +338,7 @@ A name given to the resource. Typically, a Title will be a name by which the res
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#dc:title)
+* defined in [Asset](asset.schema.md#dctitle)
 
 ### dc:title Type
 
@@ -363,7 +363,7 @@ GPS tag 6, 0x06. Indicates altitude in meters.
 `exif:gpsAltitude`
 * is optional
 * type: `number`
-* defined in [Asset](asset.schema.md#exif:gpsAltitude)
+* defined in [Asset](asset.schema.md#exifgpsaltitude)
 
 ### exif:gpsAltitude Type
 
@@ -383,9 +383,9 @@ GPS tag 5, 0x5. Indicates whether the altitude is above or below sea level.
 `exif:gpsAltitudeRef`
 * is optional
 * type: `enum`
-* defined in [Asset](asset.schema.md#exif:gpsAltitudeRef)
+* defined in [Asset](asset.schema.md#exifgpsaltituderef)
 
-The value of this property **must** be equal to one of the [known values below](#exif:gpsAltitudeRef-known-values).
+The value of this property **must** be equal to one of the [known values below](#exifgpsaltituderef-known-values).
 
 ### exif:gpsAltitudeRef Known Values
 | Value | Description |
@@ -410,7 +410,7 @@ Leading zeros are not necessary for the for DDD, MM, and SS values. The DDD,MM.m
 `exif:gpsLatitude`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#exif:gpsLatitude)
+* defined in [Asset](asset.schema.md#exifgpslatitude)
 
 ### exif:gpsLatitude Type
 
@@ -443,7 +443,7 @@ Leading zeros are not necessary for the for DDD, MM, and SS values. The DDD,MM.m
 `exif:gpsLongitude`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#exif:gpsLongitude)
+* defined in [Asset](asset.schema.md#exifgpslongitude)
 
 ### exif:gpsLongitude Type
 
@@ -470,7 +470,7 @@ Who should be credited when the asset is published.
 `photoshop:credit`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#photoshop:credit)
+* defined in [Asset](asset.schema.md#photoshopcredit)
 
 ### photoshop:credit Type
 
@@ -491,7 +491,7 @@ Owner or owners of the copyright in the licensed asset.
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#plus:copyrightOwner)
+* defined in [Asset](asset.schema.md#pluscopyrightowner)
 
 ### plus:copyrightOwner Type
 
@@ -516,7 +516,7 @@ Height in pixels. To maintain continuity with the XMP and TIFF standards, the he
 `tiff:imageLength`
 * is optional
 * type: `integer`
-* defined in [Rectangular Media](rectangular.schema.md#tiff:imageLength)
+* defined in [Rectangular Media](rectangular.schema.md#tiffimagelength)
 
 ### tiff:imageLength Type
 
@@ -537,7 +537,7 @@ Width in pixels
 `tiff:imageWidth`
 * is optional
 * type: `integer`
-* defined in [Rectangular Media](rectangular.schema.md#tiff:imageWidth)
+* defined in [Rectangular Media](rectangular.schema.md#tiffimagewidth)
 
 ### tiff:imageWidth Type
 
@@ -559,7 +559,7 @@ List of IDs under which external systems track the asset. Example of external sy
 * is optional
 * type: `array`
 
-* defined in [Asset](asset.schema.md#xdm:aliasIDs)
+* defined in [Asset](asset.schema.md#xdmaliasids)
 
 ### xdm:aliasIDs Type
 
@@ -613,7 +613,7 @@ Describes the proportional relationship between the width and the height. To det
 `xdm:aspectRatio`
 * is optional
 * type: `number`
-* defined in [Rectangular Media](rectangular.schema.md#xdm:aspectRatio)
+* defined in [Rectangular Media](rectangular.schema.md#xdmaspectratio)
 
 ### xdm:aspectRatio Type
 
@@ -636,7 +636,7 @@ The value is a GUID, capital A-F, 8-4-4-12, preceded by the string `uuid:`
 `xdm:documentID`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xdm:documentID)
+* defined in [Asset](asset.schema.md#xdmdocumentid)
 
 ### xdm:documentID Type
 
@@ -689,7 +689,7 @@ A label given to a version of the asset.
 `xdm:milestone`
 * is optional
 * type: `object`
-* defined in [Asset](asset.schema.md#xdm:milestone)
+* defined in [Asset](asset.schema.md#xdmmilestone)
 
 ### xdm:milestone Type
 
@@ -757,9 +757,9 @@ Indicates if the content is SFW (safe for work). Safe is value 0 or missing valu
 `xdm:notSafe`
 * is optional
 * type: `enum`
-* defined in [Asset](asset.schema.md#xdm:notSafe)
+* defined in [Asset](asset.schema.md#xdmnotsafe)
 
-The value of this property **must** be equal to one of the [known values below](#xdm:notSafe-known-values).
+The value of this property **must** be equal to one of the [known values below](#xdmnotsafe-known-values).
 
 ### xdm:notSafe Known Values
 | Value | Description |
@@ -779,7 +779,7 @@ Contains the artboards that are being used in the document. A document can have 
 * is optional
 * type: Artboard
 
-* defined in [Asset](asset.schema.md#xmp:artboards)
+* defined in [Asset](asset.schema.md#xmpartboards)
 
 ### xmp:artboards Type
 
@@ -804,7 +804,7 @@ The date and time the resource was created. It will be taken from within the ass
 `xmp:createDate`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmp:createDate)
+* defined in [Asset](asset.schema.md#xmpcreatedate)
 
 ### xmp:createDate Type
 
@@ -831,7 +831,7 @@ Organization Software_name Version (token;token;...)
 `xmp:creatorTool`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmp:creatorTool)
+* defined in [Asset](asset.schema.md#xmpcreatortool)
 
 ### xmp:creatorTool Type
 
@@ -852,7 +852,7 @@ This is a list of fonts and typefaces that are used in the document. The order o
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#xmp:fonts)
+* defined in [Asset](asset.schema.md#xmpfonts)
 
 ### xmp:fonts Type
 
@@ -878,7 +878,7 @@ The `keywords` property is used to track human-assigned descriptive phrases like
 * is optional
 * type: `array`
 
-* defined in [Asset](asset.schema.md#xmp:keywords)
+* defined in [Asset](asset.schema.md#xmpkeywords)
 
 ### xmp:keywords Type
 
@@ -949,7 +949,7 @@ The `Keyword` schema describes a keyword in a list of keywords, with specific lo
 `xmp:layers`
 * is optional
 * type: complex
-* defined in [Asset](asset.schema.md#xmp:layers)
+* defined in [Asset](asset.schema.md#xmplayers)
 
 ### xmp:layers Type
 
@@ -999,7 +999,7 @@ The `machineKeywords` property is used to track machine-assigned descriptive phr
 * is optional
 * type: `object[]`
 
-* defined in [Asset](asset.schema.md#xmp:machineKeywords)
+* defined in [Asset](asset.schema.md#xmpmachinekeywords)
 
 ### xmp:machineKeywords Type
 
@@ -1121,7 +1121,7 @@ The date and time when asset was last modified. The Date Time property should co
 `xmp:modifyDate`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmp:modifyDate)
+* defined in [Asset](asset.schema.md#xmpmodifydate)
 
 ### xmp:modifyDate Type
 
@@ -1142,9 +1142,9 @@ A user-assigned editable rating for this file. The value shall be -1 or in the r
 `xmp:rating`
 * is optional
 * type: `enum`
-* defined in [Asset](asset.schema.md#xmp:rating)
+* defined in [Asset](asset.schema.md#xmprating)
 
-The value of this property **must** be equal to one of the [known values below](#xmp:rating-known-values).
+The value of this property **must** be equal to one of the [known values below](#xmprating-known-values).
 
 ### xmp:rating Known Values
 | Value | Description |
@@ -1205,7 +1205,7 @@ High-level actions that resulted in the creation of this asset. It is intended t
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#xmpMM:history)
+* defined in [Asset](asset.schema.md#xmpmmhistory)
 
 ### xmpMM:history Type
 
@@ -1230,7 +1230,7 @@ A URI identifying the managed resource to the asset management system; the prese
 `xmpMM:manageTo`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmpMM:manageTo)
+* defined in [Asset](asset.schema.md#xmpmmmanageto)
 
 ### xmpMM:manageTo Type
 
@@ -1251,7 +1251,7 @@ A URI that can be used to access information about the managed resource through 
 `xmpMM:manageUI`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmpMM:manageUI)
+* defined in [Asset](asset.schema.md#xmpmmmanageui)
 
 ### xmpMM:manageUI Type
 
@@ -1272,7 +1272,7 @@ When true, indicates that this is a rights-managed resource. When false, indicat
 `xmpRights:marked`
 * is optional
 * type: `boolean`
-* defined in [Asset](asset.schema.md#xmpRights:marked)
+* defined in [Asset](asset.schema.md#xmprightsmarked)
 
 ### xmpRights:marked Type
 
@@ -1292,7 +1292,7 @@ A collection of text instructions on how a resource can be legally used, given i
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#xmpRights:usageTerms)
+* defined in [Asset](asset.schema.md#xmprightsusageterms)
 
 ### xmpRights:usageTerms Type
 
@@ -1316,7 +1316,7 @@ A Web URL for a statement of the ownership and usage rights for this resource. T
 `xmpRights:webStatement`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmpRights:webStatement)
+* defined in [Asset](asset.schema.md#xmprightswebstatement)
 
 ### xmpRights:webStatement Type
 
@@ -1342,7 +1342,7 @@ The number of pages in the document (including any in contained documents).
 `xmpTPg:NPages`
 * is optional
 * type: `integer`
-* defined in [Asset](asset.schema.md#xmpTPg:NPages)
+* defined in [Asset](asset.schema.md#xmptpgnpages)
 
 ### xmpTPg:NPages Type
 

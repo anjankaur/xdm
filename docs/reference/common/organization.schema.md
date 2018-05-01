@@ -62,7 +62,7 @@ Information that uniquely identifies an organized entity such as company, non-pr
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | Organization (this schema) |
+| [@id](#id) | `string` | Optional | Organization (this schema) |
 | [schema:description](#schemadescription) | `string` | Optional | Organization (this schema) |
 | [schema:numberOfEmployees](#schemanumberofemployees) | `number` | Optional | Organization (this schema) |
 | [xdm:classifier](#xdmclassifier) | `object` | Optional | Organization (this schema) |

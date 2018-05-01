@@ -74,7 +74,7 @@ Componentized pages are modular (consist of smaller content components), hyperli
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | [Content](content.schema.md#@id) |
+| [@id](#id) | `string` | Optional | [Content](content.schema.md#id) |
 | [dc:title](#dctitle) | `string` | Optional | Componentized Page (this schema) |
 | [repo:name](#reponame) | `string` | **Required** | Componentized Page (this schema) |
 | [repo:path](#repopath) | `string` | **Required** | Componentized Page (this schema) |
@@ -94,7 +94,7 @@ A unique identifier given to every addressable piece of content in a given repos
 `@id`
 * is optional
 * type: `string`
-* defined in [Content](content.schema.md#@id)
+* defined in [Content](content.schema.md#id)
 
 ### @id Type
 
@@ -217,7 +217,7 @@ ID of the user who initiated the action that caused the resource to be created i
 `xdm:repositoryCreatedBy`
 * is **required**
 * type: `string`
-* defined in [Content](content.schema.md#xdm:repositoryCreatedBy)
+* defined in [Content](content.schema.md#xdmrepositorycreatedby)
 
 ### xdm:repositoryCreatedBy Type
 
@@ -236,7 +236,7 @@ ID of the user who initiated the action that most recently caused the resource t
 `xdm:repositoryLastModifiedBy`
 * is **required**
 * type: `string`
-* defined in [Content](content.schema.md#xdm:repositoryLastModifiedBy)
+* defined in [Content](content.schema.md#xdmrepositorylastmodifiedby)
 
 ### xdm:repositoryLastModifiedBy Type
 

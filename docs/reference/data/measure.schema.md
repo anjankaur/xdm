@@ -27,7 +27,7 @@ It has a value, and optionally a unit, although the unit can be inferred from th
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@type](#@type) | `string` | Optional | Measure (this schema) |
+| [@type](#type) | `string` | Optional | Measure (this schema) |
 | [xdm:id](#xdmid) | `string` | Optional | Measure (this schema) |
 | [xdm:unit](#xdmunit) | complex | Optional | Measure (this schema) |
 | [xdm:value](#xdmvalue) | `number` | **Required** | Measure (this schema) |

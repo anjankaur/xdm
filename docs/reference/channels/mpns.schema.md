@@ -29,8 +29,8 @@ Microsoft Push Notification Service
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | MPNS (this schema) |
-| [@type](#@type) | `const` | Optional | MPNS (this schema) |
+| [@id](#id) | `const` | **Required** | MPNS (this schema) |
+| [@type](#type) | `const` | Optional | MPNS (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | MPNS (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | MPNS (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | MPNS (this schema) |

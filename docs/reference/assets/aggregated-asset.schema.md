@@ -47,7 +47,7 @@ This schema aggregates all asset sub-schemas that are supported by XDM.
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | [Content](../content/content.schema.md#@id) |
+| [@id](#id) | `string` | Optional | [Content](../content/content.schema.md#id) |
 | [_embedded](#_embedded) | `object` | Optional | [HAL Resource](../external/hal/hal.schema.md#_embedded) |
 | [_links](#_links) | `object` | Optional | [HAL Resource](../external/hal/hal.schema.md#_links) |
 | [cc:attributionName](#ccattributionname) | `string` | Optional | [Asset](asset.schema.md#ccattributionname) |
@@ -119,7 +119,7 @@ A unique identifier given to every addressable piece of content in a given repos
 `@id`
 * is optional
 * type: `string`
-* defined in [Content](../content/content.schema.md#@id)
+* defined in [Content](../content/content.schema.md#id)
 
 ### @id Type
 
@@ -186,7 +186,7 @@ For licenses that require attribution, such as some Creative Commons licenses, t
 `cc:attributionName`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#cc:attributionName)
+* defined in [Asset](asset.schema.md#ccattributionname)
 
 ### cc:attributionName Type
 
@@ -206,7 +206,7 @@ For licenses that require attribution, such as some Creative Commons licenses, a
 `cc:attributionUrl`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#cc:attributionUrl)
+* defined in [Asset](asset.schema.md#ccattributionurl)
 
 ### cc:attributionUrl Type
 
@@ -227,7 +227,7 @@ A license is a set of requests/permissions to users of a Work, e.g. a copyright 
 `cc:license`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#cc:license)
+* defined in [Asset](asset.schema.md#cclicense)
 
 ### cc:license Type
 
@@ -251,7 +251,7 @@ XMP usage is a list of creators. Entities should be listed in order of decreasin
 * is optional
 * type: `string[]`
 
-* defined in [Asset](asset.schema.md#dc:creator)
+* defined in [Asset](asset.schema.md#dccreator)
 
 ### dc:creator Type
 
@@ -278,7 +278,7 @@ An account of the content of the resource. Description may include but is not li
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#dc:description)
+* defined in [Asset](asset.schema.md#dcdescription)
 
 ### dc:description Type
 
@@ -303,7 +303,7 @@ The physical or digital manifestation of the resource. Typically, Format should 
 `dc:format`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#dc:format)
+* defined in [Common Properties](../external/repo/common.schema.md#dcformat)
 
 ### dc:format Type
 
@@ -338,7 +338,7 @@ Languages are specified in language code as defined in [IETF RFC 3066](https://w
 * is optional
 * type: `string[]`
 
-* defined in [Asset](asset.schema.md#dc:language)
+* defined in [Asset](asset.schema.md#dclanguage)
 
 ### dc:language Type
 
@@ -388,7 +388,7 @@ Locale codes should follow IETF BCP 47 standard.
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#dc:rights)
+* defined in [Asset](asset.schema.md#dcrights)
 
 ### dc:rights Type
 
@@ -414,7 +414,7 @@ Set of descriptive phrases or keywords that describe the content of the resource
 * is optional
 * type: `string[]`
 
-* defined in [Asset](asset.schema.md#dc:subject)
+* defined in [Asset](asset.schema.md#dcsubject)
 
 ### dc:subject Type
 
@@ -441,7 +441,7 @@ A name given to the resource. Typically, a Title will be a name by which the res
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#dc:title)
+* defined in [Asset](asset.schema.md#dctitle)
 
 ### dc:title Type
 
@@ -466,7 +466,7 @@ GPS tag 6, 0x06. Indicates altitude in meters.
 `exif:gpsAltitude`
 * is optional
 * type: `number`
-* defined in [Asset](asset.schema.md#exif:gpsAltitude)
+* defined in [Asset](asset.schema.md#exifgpsaltitude)
 
 ### exif:gpsAltitude Type
 
@@ -486,9 +486,9 @@ GPS tag 5, 0x5. Indicates whether the altitude is above or below sea level.
 `exif:gpsAltitudeRef`
 * is optional
 * type: `enum`
-* defined in [Asset](asset.schema.md#exif:gpsAltitudeRef)
+* defined in [Asset](asset.schema.md#exifgpsaltituderef)
 
-The value of this property **must** be equal to one of the [known values below](#exif:gpsAltitudeRef-known-values).
+The value of this property **must** be equal to one of the [known values below](#exifgpsaltituderef-known-values).
 
 ### exif:gpsAltitudeRef Known Values
 | Value | Description |
@@ -513,7 +513,7 @@ Leading zeros are not necessary for the for DDD, MM, and SS values. The DDD,MM.m
 `exif:gpsLatitude`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#exif:gpsLatitude)
+* defined in [Asset](asset.schema.md#exifgpslatitude)
 
 ### exif:gpsLatitude Type
 
@@ -546,7 +546,7 @@ Leading zeros are not necessary for the for DDD, MM, and SS values. The DDD,MM.m
 `exif:gpsLongitude`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#exif:gpsLongitude)
+* defined in [Asset](asset.schema.md#exifgpslongitude)
 
 ### exif:gpsLongitude Type
 
@@ -573,7 +573,7 @@ The [ICC color profile](http://www.color.org/iccprofile.xalter), such as AppleRG
 `photoshop:ICCProfile`
 * is optional
 * type: `string`
-* defined in [Image](image.schema.md#photoshop:ICCProfile)
+* defined in [Image](image.schema.md#photoshopiccprofile)
 
 ### photoshop:ICCProfile Type
 
@@ -612,9 +612,9 @@ The color mode or image mode determines how colors combine based on the number o
 `photoshop:colorMode`
 * is optional
 * type: `enum`
-* defined in [Image](image.schema.md#photoshop:colorMode)
+* defined in [Image](image.schema.md#photoshopcolormode)
 
-The value of this property **must** be equal to one of the [known values below](#photoshop:colorMode-known-values).
+The value of this property **must** be equal to one of the [known values below](#photoshopcolormode-known-values).
 
 ### photoshop:colorMode Known Values
 | Value | Description |
@@ -639,7 +639,7 @@ Who should be credited when the asset is published.
 `photoshop:credit`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#photoshop:credit)
+* defined in [Asset](asset.schema.md#photoshopcredit)
 
 ### photoshop:credit Type
 
@@ -660,7 +660,7 @@ Owner or owners of the copyright in the licensed asset.
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#plus:copyrightOwner)
+* defined in [Asset](asset.schema.md#pluscopyrightowner)
 
 ### plus:copyrightOwner Type
 
@@ -686,7 +686,7 @@ If the PLUS-ID being stored in this property is registered with the PLUS Coaliti
 `plus:copyrightOwnerID`
 * is optional
 * type: `string`
-* defined in [Copyright Owner](copyright-owner.schema.md#plus:copyrightOwnerID)
+* defined in [Copyright Owner](copyright-owner.schema.md#pluscopyrightownerid)
 
 ### plus:copyrightOwnerID Type
 
@@ -706,7 +706,7 @@ Name of Copyright Owner.
 `plus:copyrightOwnerName`
 * is optional
 * type: `string`
-* defined in [Copyright Owner](copyright-owner.schema.md#plus:copyrightOwnerName)
+* defined in [Copyright Owner](copyright-owner.schema.md#pluscopyrightownername)
 
 ### plus:copyrightOwnerName Type
 
@@ -727,7 +727,7 @@ The format is a [GUID-based URN](https://www.ietf.org/rfc/rfc4122.txt). The patt
 `repo:assetID`
 * is optional
 * type: `string`
-* defined in [Asset](../external/repo/asset.schema.md#repo:assetID)
+* defined in [Asset](../external/repo/asset.schema.md#repoassetid)
 
 ### repo:assetID Type
 
@@ -759,7 +759,7 @@ The server date and time when the resource was created in the repository, such a
 `repo:createDate`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:createDate)
+* defined in [Common Properties](../external/repo/common.schema.md#repocreatedate)
 
 ### repo:createDate Type
 
@@ -785,7 +785,7 @@ An  ETag is an HTTP response header returned by an HTTP/1.1 compliant web server
 `repo:etag`
 * is optional
 * type: `string`
-* defined in [Asset](../external/repo/asset.schema.md#repo:etag)
+* defined in [Asset](../external/repo/asset.schema.md#repoetag)
 
 ### repo:etag Type
 
@@ -804,7 +804,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:lastModifiedDate`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:lastModifiedDate)
+* defined in [Common Properties](../external/repo/common.schema.md#repolastmodifieddate)
 
 ### repo:lastModifiedDate Type
 
@@ -828,7 +828,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:name`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:name)
+* defined in [Common Properties](../external/repo/common.schema.md#reponame)
 
 ### repo:name Type
 
@@ -846,7 +846,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:path`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:path)
+* defined in [Common Properties](../external/repo/common.schema.md#repopath)
 
 ### repo:path Type
 
@@ -866,7 +866,7 @@ Size of the asset in bytes.
 `repo:size`
 * is optional
 * type: `integer`
-* defined in [Asset](../external/repo/asset.schema.md#repo:size)
+* defined in [Asset](../external/repo/asset.schema.md#reposize)
 
 ### repo:size Type
 
@@ -885,7 +885,7 @@ The version ID of the piece of content. It will be generated both on explicit an
 `repo:version`
 * is optional
 * type: `string`
-* defined in [Asset](../external/repo/asset.schema.md#repo:version)
+* defined in [Asset](../external/repo/asset.schema.md#repoversion)
 
 ### repo:version Type
 
@@ -905,7 +905,7 @@ Horizontal resolution in pixels per `resolutionUnit`.
 `tiff:XResolution`
 * is optional
 * type: `object`
-* defined in [Image](image.schema.md#tiff:XResolution)
+* defined in [Image](image.schema.md#tiffxresolution)
 
 ### tiff:XResolution Type
 
@@ -929,7 +929,7 @@ Vertical resolution in pixels per `resolutionUnit`.
 `tiff:YResolution`
 * is optional
 * type: `object`
-* defined in [Image](image.schema.md#tiff:YResolution)
+* defined in [Image](image.schema.md#tiffyresolution)
 
 ### tiff:YResolution Type
 
@@ -953,7 +953,7 @@ Height in pixels. To maintain continuity with the XMP and TIFF standards, the he
 `tiff:imageLength`
 * is optional
 * type: `integer`
-* defined in [Rectangular Media](rectangular.schema.md#tiff:imageLength)
+* defined in [Rectangular Media](rectangular.schema.md#tiffimagelength)
 
 ### tiff:imageLength Type
 
@@ -974,7 +974,7 @@ Width in pixels
 `tiff:imageWidth`
 * is optional
 * type: `integer`
-* defined in [Rectangular Media](rectangular.schema.md#tiff:imageWidth)
+* defined in [Rectangular Media](rectangular.schema.md#tiffimagewidth)
 
 ### tiff:imageWidth Type
 
@@ -1003,7 +1003,7 @@ The orientation of the image. Following values are permitted:
 `tiff:orientation`
 * is optional
 * type: `integer`
-* defined in [Image](image.schema.md#tiff:orientation)
+* defined in [Image](image.schema.md#tifforientation)
 
 ### tiff:orientation Type
 
@@ -1036,9 +1036,9 @@ Unit used for `XResolution` and `YRresolution`. Possible values are 2 (inches) a
 `tiff:resolutionUnit`
 * is optional
 * type: `enum`
-* defined in [Image](image.schema.md#tiff:resolutionUnit)
+* defined in [Image](image.schema.md#tiffresolutionunit)
 
-The value of this property **must** be equal to one of the [known values below](#tiff:resolutionUnit-known-values).
+The value of this property **must** be equal to one of the [known values below](#tiffresolutionunit-known-values).
 
 ### tiff:resolutionUnit Known Values
 | Value | Description |
@@ -1058,7 +1058,7 @@ List of IDs under which external systems track the asset. Example of external sy
 * is optional
 * type: `array`
 
-* defined in [Asset](asset.schema.md#xdm:aliasIDs)
+* defined in [Asset](asset.schema.md#xdmaliasids)
 
 ### xdm:aliasIDs Type
 
@@ -1112,7 +1112,7 @@ Describes the proportional relationship between the width and the height. To det
 `xdm:aspectRatio`
 * is optional
 * type: `number`
-* defined in [Rectangular Media](rectangular.schema.md#xdm:aspectRatio)
+* defined in [Rectangular Media](rectangular.schema.md#xdmaspectratio)
 
 ### xdm:aspectRatio Type
 
@@ -1135,7 +1135,7 @@ The value is a GUID, capital A-F, 8-4-4-12, preceded by the string `uuid:`
 `xdm:documentID`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xdm:documentID)
+* defined in [Asset](asset.schema.md#xdmdocumentid)
 
 ### xdm:documentID Type
 
@@ -1168,7 +1168,7 @@ The duration of the video in milliseconds. This property is inspired by `dc:exte
 `xdm:extent`
 * is optional
 * type: `integer`
-* defined in [Video](video.schema.md#xdm:extent)
+* defined in [Video](video.schema.md#xdmextent)
 
 ### xdm:extent Type
 
@@ -1188,7 +1188,7 @@ A label given to a version of the asset.
 `xdm:milestone`
 * is optional
 * type: `object`
-* defined in [Asset](asset.schema.md#xdm:milestone)
+* defined in [Asset](asset.schema.md#xdmmilestone)
 
 ### xdm:milestone Type
 
@@ -1256,9 +1256,9 @@ Indicates if the content is SFW (safe for work). Safe is value 0 or missing valu
 `xdm:notSafe`
 * is optional
 * type: `enum`
-* defined in [Asset](asset.schema.md#xdm:notSafe)
+* defined in [Asset](asset.schema.md#xdmnotsafe)
 
-The value of this property **must** be equal to one of the [known values below](#xdm:notSafe-known-values).
+The value of this property **must** be equal to one of the [known values below](#xdmnotsafe-known-values).
 
 ### xdm:notSafe Known Values
 | Value | Description |
@@ -1276,7 +1276,7 @@ ID of the user who initiated the action that caused the resource to be created i
 `xdm:repositoryCreatedBy`
 * is optional
 * type: `string`
-* defined in [Content](../content/content.schema.md#xdm:repositoryCreatedBy)
+* defined in [Content](../content/content.schema.md#xdmrepositorycreatedby)
 
 ### xdm:repositoryCreatedBy Type
 
@@ -1295,7 +1295,7 @@ ID of the user who initiated the action that most recently caused the resource t
 `xdm:repositoryLastModifiedBy`
 * is optional
 * type: `string`
-* defined in [Content](../content/content.schema.md#xdm:repositoryLastModifiedBy)
+* defined in [Content](../content/content.schema.md#xdmrepositorylastmodifiedby)
 
 ### xdm:repositoryLastModifiedBy Type
 
@@ -1316,7 +1316,7 @@ Contains the artboards that are being used in the document. A document can have 
 * is optional
 * type: Artboard
 
-* defined in [Asset](asset.schema.md#xmp:artboards)
+* defined in [Asset](asset.schema.md#xmpartboards)
 
 ### xmp:artboards Type
 
@@ -1341,7 +1341,7 @@ The date and time the resource was created. It will be taken from within the ass
 `xmp:createDate`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmp:createDate)
+* defined in [Asset](asset.schema.md#xmpcreatedate)
 
 ### xmp:createDate Type
 
@@ -1368,7 +1368,7 @@ Organization Software_name Version (token;token;...)
 `xmp:creatorTool`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmp:creatorTool)
+* defined in [Asset](asset.schema.md#xmpcreatortool)
 
 ### xmp:creatorTool Type
 
@@ -1389,7 +1389,7 @@ This is a list of fonts and typefaces that are used in the document. The order o
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#xmp:fonts)
+* defined in [Asset](asset.schema.md#xmpfonts)
 
 ### xmp:fonts Type
 
@@ -1415,7 +1415,7 @@ The `keywords` property is used to track human-assigned descriptive phrases like
 * is optional
 * type: `array`
 
-* defined in [Asset](asset.schema.md#xmp:keywords)
+* defined in [Asset](asset.schema.md#xmpkeywords)
 
 ### xmp:keywords Type
 
@@ -1486,7 +1486,7 @@ The `Keyword` schema describes a keyword in a list of keywords, with specific lo
 `xmp:layers`
 * is optional
 * type: complex
-* defined in [Asset](asset.schema.md#xmp:layers)
+* defined in [Asset](asset.schema.md#xmplayers)
 
 ### xmp:layers Type
 
@@ -1536,7 +1536,7 @@ The `machineKeywords` property is used to track machine-assigned descriptive phr
 * is optional
 * type: `object[]`
 
-* defined in [Asset](asset.schema.md#xmp:machineKeywords)
+* defined in [Asset](asset.schema.md#xmpmachinekeywords)
 
 ### xmp:machineKeywords Type
 
@@ -1658,7 +1658,7 @@ The date and time when asset was last modified. The Date Time property should co
 `xmp:modifyDate`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmp:modifyDate)
+* defined in [Asset](asset.schema.md#xmpmodifydate)
 
 ### xmp:modifyDate Type
 
@@ -1678,7 +1678,7 @@ Total number of pixels
 `xmp:numberOfPixels`
 * is optional
 * type: `integer`
-* defined in [Image](image.schema.md#xmp:numberOfPixels)
+* defined in [Image](image.schema.md#xmpnumberofpixels)
 
 ### xmp:numberOfPixels Type
 
@@ -1699,9 +1699,9 @@ A user-assigned editable rating for this file. The value shall be -1 or in the r
 `xmp:rating`
 * is optional
 * type: `enum`
-* defined in [Asset](asset.schema.md#xmp:rating)
+* defined in [Asset](asset.schema.md#xmprating)
 
-The value of this property **must** be equal to one of the [known values below](#xmp:rating-known-values).
+The value of this property **must** be equal to one of the [known values below](#xmprating-known-values).
 
 ### xmp:rating Known Values
 | Value | Description |
@@ -1734,7 +1734,7 @@ These examples show common video and audio frame rates:
 `xmpDM:videoFrameRate`
 * is optional
 * type: `string`
-* defined in [Video](video.schema.md#xmpDM:videoFrameRate)
+* defined in [Video](video.schema.md#xmpdmvideoframerate)
 
 ### xmpDM:videoFrameRate Type
 
@@ -1762,7 +1762,7 @@ High-level actions that resulted in the creation of this asset. It is intended t
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#xmpMM:history)
+* defined in [Asset](asset.schema.md#xmpmmhistory)
 
 ### xmpMM:history Type
 
@@ -1787,7 +1787,7 @@ A URI identifying the managed resource to the asset management system; the prese
 `xmpMM:manageTo`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmpMM:manageTo)
+* defined in [Asset](asset.schema.md#xmpmmmanageto)
 
 ### xmpMM:manageTo Type
 
@@ -1808,7 +1808,7 @@ A URI that can be used to access information about the managed resource through 
 `xmpMM:manageUI`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmpMM:manageUI)
+* defined in [Asset](asset.schema.md#xmpmmmanageui)
 
 ### xmpMM:manageUI Type
 
@@ -1829,7 +1829,7 @@ When true, indicates that this is a rights-managed resource. When false, indicat
 `xmpRights:marked`
 * is optional
 * type: `boolean`
-* defined in [Asset](asset.schema.md#xmpRights:marked)
+* defined in [Asset](asset.schema.md#xmprightsmarked)
 
 ### xmpRights:marked Type
 
@@ -1849,7 +1849,7 @@ A collection of text instructions on how a resource can be legally used, given i
 * is optional
 * type: reference
 
-* defined in [Asset](asset.schema.md#xmpRights:usageTerms)
+* defined in [Asset](asset.schema.md#xmprightsusageterms)
 
 ### xmpRights:usageTerms Type
 
@@ -1873,7 +1873,7 @@ A Web URL for a statement of the ownership and usage rights for this resource. T
 `xmpRights:webStatement`
 * is optional
 * type: `string`
-* defined in [Asset](asset.schema.md#xmpRights:webStatement)
+* defined in [Asset](asset.schema.md#xmprightswebstatement)
 
 ### xmpRights:webStatement Type
 
@@ -1899,7 +1899,7 @@ The number of pages in the document (including any in contained documents).
 `xmpTPg:NPages`
 * is optional
 * type: `integer`
-* defined in [Asset](asset.schema.md#xmpTPg:NPages)
+* defined in [Asset](asset.schema.md#xmptpgnpages)
 
 ### xmpTPg:NPages Type
 

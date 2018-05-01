@@ -29,8 +29,8 @@ Windows Push Notification Service.
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | WNS (this schema) |
-| [@type](#@type) | `const` | Optional | WNS (this schema) |
+| [@id](#id) | `const` | **Required** | WNS (this schema) |
+| [@type](#type) | `const` | Optional | WNS (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | WNS (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | WNS (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | WNS (this schema) |

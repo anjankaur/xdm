@@ -25,7 +25,7 @@ The direct-marketing metric user-complaints describes the number of user complai
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | user-complaints (this schema) |
+| [@id](#id) | `const` | **Required** | user-complaints (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | user-complaints (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | user-complaints (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | user-complaints (this schema) |

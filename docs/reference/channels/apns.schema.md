@@ -29,8 +29,8 @@ Apple Push Notification Service
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | APNS (this schema) |
-| [@type](#@type) | `const` | Optional | APNS (this schema) |
+| [@id](#id) | `const` | **Required** | APNS (this schema) |
+| [@type](#type) | `const` | Optional | APNS (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | APNS (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | APNS (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | APNS (this schema) |

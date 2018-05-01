@@ -120,7 +120,7 @@ The Data Set Files in Catalog Services which has been originating the creation o
 `xdm:createdByBatchID`
 * is optional
 * type: `string`
-* defined in [Audit Trail](../common/auditable.schema.md#xdm:createdByBatchID)
+* defined in [Audit Trail](../common/auditable.schema.md#xdmcreatedbybatchid)
 
 ### xdm:createdByBatchID Type
 
@@ -144,7 +144,7 @@ Gender identity of the person.
 * type: `enum`
 * defined in this schema
 
-The value of this property **must** be equal to one of the [known values below](#xdm:gender-known-values).
+The value of this property **must** be equal to one of the [known values below](#xdmgender-known-values).
 
 ### xdm:gender Known Values
 | Value | Description |
@@ -167,7 +167,7 @@ At creation time, `modifiedByBatchID` is set as `createdByBatchID`.
 `xdm:modifiedByBatchID`
 * is optional
 * type: `string`
-* defined in [Audit Trail](../common/auditable.schema.md#xdm:modifiedByBatchID)
+* defined in [Audit Trail](../common/auditable.schema.md#xdmmodifiedbybatchid)
 
 ### xdm:modifiedByBatchID Type
 
@@ -208,7 +208,7 @@ User id who has created the entity.
 `xdm:repositoryCreatedBy`
 * is optional
 * type: `string`
-* defined in [Audit Trail](../common/auditable.schema.md#xdm:repositoryCreatedBy)
+* defined in [Audit Trail](../common/auditable.schema.md#xdmrepositorycreatedby)
 
 ### xdm:repositoryCreatedBy Type
 
@@ -230,7 +230,7 @@ At creation time, `modifiedByUser` is set as `createdByUser`.
 `xdm:repositoryLastModifiedBy`
 * is optional
 * type: `string`
-* defined in [Audit Trail](../common/auditable.schema.md#xdm:repositoryLastModifiedBy)
+* defined in [Audit Trail](../common/auditable.schema.md#xdmrepositorylastmodifiedby)
 
 ### xdm:repositoryLastModifiedBy Type
 

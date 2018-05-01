@@ -29,8 +29,8 @@ Native mobile applications that are installed through an app store.
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | Web (this schema) |
-| [@type](#@type) | `const` | Optional | Web (this schema) |
+| [@id](#id) | `const` | **Required** | Web (this schema) |
+| [@type](#type) | `const` | Optional | Web (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | Web (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | Web (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | Web (this schema) |

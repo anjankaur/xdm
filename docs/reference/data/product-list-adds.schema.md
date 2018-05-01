@@ -25,7 +25,7 @@ The commerce metric product-list-adds describes the number of times a product ha
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | product-list-adds (this schema) |
+| [@id](#id) | `const` | **Required** | product-list-adds (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | product-list-adds (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | product-list-adds (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | product-list-adds (this schema) |

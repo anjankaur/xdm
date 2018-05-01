@@ -51,7 +51,7 @@ All digital assets are content, and some content can include, link to, or refer 
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | [Content](../content/content.schema.md#@id) |
+| [@id](#id) | `string` | Optional | [Content](../content/content.schema.md#id) |
 | [_embedded](#_embedded) | `object` | Optional | [HAL Resource](../external/hal/hal.schema.md#_embedded) |
 | [_links](#_links) | `object` | Optional | [HAL Resource](../external/hal/hal.schema.md#_links) |
 | [cc:attributionName](#ccattributionname) | `string` | Optional | Asset (this schema) |
@@ -113,7 +113,7 @@ A unique identifier given to every addressable piece of content in a given repos
 `@id`
 * is optional
 * type: `string`
-* defined in [Content](../content/content.schema.md#@id)
+* defined in [Content](../content/content.schema.md#id)
 
 ### @id Type
 
@@ -297,7 +297,7 @@ The physical or digital manifestation of the resource. Typically, Format should 
 `dc:format`
 * is **required**
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#dc:format)
+* defined in [Common Properties](../external/repo/common.schema.md#dcformat)
 
 ### dc:format Type
 
@@ -482,7 +482,7 @@ GPS tag 5, 0x5. Indicates whether the altitude is above or below sea level.
 * type: `enum`
 * defined in this schema
 
-The value of this property **must** be equal to one of the [known values below](#exif:gpsAltitudeRef-known-values).
+The value of this property **must** be equal to one of the [known values below](#exifgpsaltituderef-known-values).
 
 ### exif:gpsAltitudeRef Known Values
 | Value | Description |
@@ -614,7 +614,7 @@ If the PLUS-ID being stored in this property is registered with the PLUS Coaliti
 `plus:copyrightOwnerID`
 * is optional
 * type: `string`
-* defined in [Copyright Owner](copyright-owner.schema.md#plus:copyrightOwnerID)
+* defined in [Copyright Owner](copyright-owner.schema.md#pluscopyrightownerid)
 
 ### plus:copyrightOwnerID Type
 
@@ -634,7 +634,7 @@ Name of Copyright Owner.
 `plus:copyrightOwnerName`
 * is optional
 * type: `string`
-* defined in [Copyright Owner](copyright-owner.schema.md#plus:copyrightOwnerName)
+* defined in [Copyright Owner](copyright-owner.schema.md#pluscopyrightownername)
 
 ### plus:copyrightOwnerName Type
 
@@ -655,7 +655,7 @@ The format is a [GUID-based URN](https://www.ietf.org/rfc/rfc4122.txt). The patt
 `repo:assetID`
 * is **required**
 * type: `string`
-* defined in [Asset](../external/repo/asset.schema.md#repo:assetID)
+* defined in [Asset](../external/repo/asset.schema.md#repoassetid)
 
 ### repo:assetID Type
 
@@ -687,7 +687,7 @@ The server date and time when the resource was created in the repository, such a
 `repo:createDate`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:createDate)
+* defined in [Common Properties](../external/repo/common.schema.md#repocreatedate)
 
 ### repo:createDate Type
 
@@ -713,7 +713,7 @@ An  ETag is an HTTP response header returned by an HTTP/1.1 compliant web server
 `repo:etag`
 * is **required**
 * type: `string`
-* defined in [Asset](../external/repo/asset.schema.md#repo:etag)
+* defined in [Asset](../external/repo/asset.schema.md#repoetag)
 
 ### repo:etag Type
 
@@ -732,7 +732,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:lastModifiedDate`
 * is **required**
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:lastModifiedDate)
+* defined in [Common Properties](../external/repo/common.schema.md#repolastmodifieddate)
 
 ### repo:lastModifiedDate Type
 
@@ -756,7 +756,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:name`
 * is **required**
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:name)
+* defined in [Common Properties](../external/repo/common.schema.md#reponame)
 
 ### repo:name Type
 
@@ -774,7 +774,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:path`
 * is **required**
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:path)
+* defined in [Common Properties](../external/repo/common.schema.md#repopath)
 
 ### repo:path Type
 
@@ -794,7 +794,7 @@ Size of the asset in bytes.
 `repo:size`
 * is **required**
 * type: `integer`
-* defined in [Asset](../external/repo/asset.schema.md#repo:size)
+* defined in [Asset](../external/repo/asset.schema.md#reposize)
 
 ### repo:size Type
 
@@ -813,7 +813,7 @@ The version ID of the piece of content. It will be generated both on explicit an
 `repo:version`
 * is **required**
 * type: `string`
-* defined in [Asset](../external/repo/asset.schema.md#repo:version)
+* defined in [Asset](../external/repo/asset.schema.md#repoversion)
 
 ### repo:version Type
 
@@ -833,7 +833,7 @@ Height in pixels. To maintain continuity with the XMP and TIFF standards, the he
 `tiff:imageLength`
 * is optional
 * type: `integer`
-* defined in [Asset](../external/repo/asset.schema.md#tiff:imageLength)
+* defined in [Asset](../external/repo/asset.schema.md#tiffimagelength)
 
 ### tiff:imageLength Type
 
@@ -854,7 +854,7 @@ Width in pixels
 `tiff:imageWidth`
 * is optional
 * type: `integer`
-* defined in [Asset](../external/repo/asset.schema.md#tiff:imageWidth)
+* defined in [Asset](../external/repo/asset.schema.md#tiffimagewidth)
 
 ### tiff:imageWidth Type
 
@@ -1031,7 +1031,7 @@ Indicates if the content is SFW (safe for work). Safe is value 0 or missing valu
 * type: `enum`
 * defined in this schema
 
-The value of this property **must** be equal to one of the [known values below](#xdm:notSafe-known-values).
+The value of this property **must** be equal to one of the [known values below](#xdmnotsafe-known-values).
 
 ### xdm:notSafe Known Values
 | Value | Description |
@@ -1049,7 +1049,7 @@ ID of the user who initiated the action that caused the resource to be created i
 `xdm:repositoryCreatedBy`
 * is optional
 * type: `string`
-* defined in [Content](../content/content.schema.md#xdm:repositoryCreatedBy)
+* defined in [Content](../content/content.schema.md#xdmrepositorycreatedby)
 
 ### xdm:repositoryCreatedBy Type
 
@@ -1068,7 +1068,7 @@ ID of the user who initiated the action that most recently caused the resource t
 `xdm:repositoryLastModifiedBy`
 * is optional
 * type: `string`
-* defined in [Content](../content/content.schema.md#xdm:repositoryLastModifiedBy)
+* defined in [Content](../content/content.schema.md#xdmrepositorylastmodifiedby)
 
 ### xdm:repositoryLastModifiedBy Type
 
@@ -1446,7 +1446,7 @@ A user-assigned editable rating for this file. The value shall be -1 or in the r
 * type: `enum`
 * defined in this schema
 
-The value of this property **must** be equal to one of the [known values below](#xmp:rating-known-values).
+The value of this property **must** be equal to one of the [known values below](#xmprating-known-values).
 
 ### xmp:rating Known Values
 | Value | Description |

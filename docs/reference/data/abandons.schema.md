@@ -25,7 +25,7 @@ Number of abandons for which a product list has been identified as no longer pur
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | abandons (this schema) |
+| [@id](#id) | `const` | **Required** | abandons (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | abandons (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | abandons (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | abandons (this schema) |

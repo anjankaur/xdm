@@ -38,34 +38,34 @@ This is map of metrics and measures. Each key is the valid URI of a known `Metri
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [https://ns.adobe.com/xdm/data/metrics/advertising/clicks](#https//ns.adobe.com/xdm/data/metrics/advertising/clicks) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/advertising/impressions](#https//ns.adobe.com/xdm/data/metrics/advertising/impressions) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/application/closes](#https//ns.adobe.com/xdm/data/metrics/application/closes) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/application/crashes](#https//ns.adobe.com/xdm/data/metrics/application/crashes) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/application/featureusages](#https//ns.adobe.com/xdm/data/metrics/application/featureusages) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/application/installs](#https//ns.adobe.com/xdm/data/metrics/application/installs) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/application/launches](#https//ns.adobe.com/xdm/data/metrics/application/launches) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/application/upgrades](#https//ns.adobe.com/xdm/data/metrics/application/upgrades) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/abandons](#https//ns.adobe.com/xdm/data/metrics/commerce/abandons) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/checkouts](#https//ns.adobe.com/xdm/data/metrics/commerce/checkouts) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-adds](#https//ns.adobe.com/xdm/data/metrics/commerce/product-list-adds) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-opens](#https//ns.adobe.com/xdm/data/metrics/commerce/product-list-opens) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-removals](#https//ns.adobe.com/xdm/data/metrics/commerce/product-list-removals) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-reopens](#https//ns.adobe.com/xdm/data/metrics/commerce/product-list-reopens) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-views](#https//ns.adobe.com/xdm/data/metrics/commerce/product-list-views) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/product-views](#https//ns.adobe.com/xdm/data/metrics/commerce/product-views) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/purchases](#https//ns.adobe.com/xdm/data/metrics/commerce/purchases) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/commerce/save-for-laters](#https//ns.adobe.com/xdm/data/metrics/commerce/save-for-laters) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/bounces](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/bounces) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/mirror-pages](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/mirror-pages) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/non-deliverables](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/non-deliverables) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/not-sent](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/not-sent) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/opens](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/opens) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/sends](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/sends) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/unsubscriptions](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/unsubscriptions) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/user-complaints](#https//ns.adobe.com/xdm/data/metrics/direct-marketing/user-complaints) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/web/link-clicks](#https//ns.adobe.com/xdm/data/metrics/web/link-clicks) | Measure | Optional | Metrics (this schema) |
-| [https://ns.adobe.com/xdm/data/metrics/web/page-views](#https//ns.adobe.com/xdm/data/metrics/web/page-views) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/advertising/clicks](#httpsnsadobecomxdmdatametricsadvertisingclicks) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/advertising/impressions](#httpsnsadobecomxdmdatametricsadvertisingimpressions) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/application/closes](#httpsnsadobecomxdmdatametricsapplicationcloses) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/application/crashes](#httpsnsadobecomxdmdatametricsapplicationcrashes) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/application/featureusages](#httpsnsadobecomxdmdatametricsapplicationfeatureusages) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/application/installs](#httpsnsadobecomxdmdatametricsapplicationinstalls) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/application/launches](#httpsnsadobecomxdmdatametricsapplicationlaunches) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/application/upgrades](#httpsnsadobecomxdmdatametricsapplicationupgrades) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/abandons](#httpsnsadobecomxdmdatametricscommerceabandons) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/checkouts](#httpsnsadobecomxdmdatametricscommercecheckouts) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-adds](#httpsnsadobecomxdmdatametricscommerceproduct-list-adds) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-opens](#httpsnsadobecomxdmdatametricscommerceproduct-list-opens) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-removals](#httpsnsadobecomxdmdatametricscommerceproduct-list-removals) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-reopens](#httpsnsadobecomxdmdatametricscommerceproduct-list-reopens) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/product-list-views](#httpsnsadobecomxdmdatametricscommerceproduct-list-views) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/product-views](#httpsnsadobecomxdmdatametricscommerceproduct-views) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/purchases](#httpsnsadobecomxdmdatametricscommercepurchases) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/commerce/save-for-laters](#httpsnsadobecomxdmdatametricscommercesave-for-laters) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/bounces](#httpsnsadobecomxdmdatametricsdirect-marketingbounces) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/mirror-pages](#httpsnsadobecomxdmdatametricsdirect-marketingmirror-pages) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/non-deliverables](#httpsnsadobecomxdmdatametricsdirect-marketingnon-deliverables) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/not-sent](#httpsnsadobecomxdmdatametricsdirect-marketingnot-sent) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/opens](#httpsnsadobecomxdmdatametricsdirect-marketingopens) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/sends](#httpsnsadobecomxdmdatametricsdirect-marketingsends) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/unsubscriptions](#httpsnsadobecomxdmdatametricsdirect-marketingunsubscriptions) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/direct-marketing/user-complaints](#httpsnsadobecomxdmdatametricsdirect-marketinguser-complaints) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/web/link-clicks](#httpsnsadobecomxdmdatametricsweblink-clicks) | Measure | Optional | Metrics (this schema) |
+| [https://ns.adobe.com/xdm/data/metrics/web/page-views](#httpsnsadobecomxdmdatametricswebpage-views) | Measure | Optional | Metrics (this schema) |
 | `*` | any | Additional | this schema *allows* additional properties |
 
 ## https://ns.adobe.com/xdm/data/metrics/advertising/clicks

@@ -25,7 +25,7 @@ The advertising metric clicks describes…
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | clicks (this schema) |
+| [@id](#id) | `const` | **Required** | clicks (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | clicks (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | clicks (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | clicks (this schema) |

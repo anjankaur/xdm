@@ -25,7 +25,7 @@ The direct-marketing metric mirror-pages describes the number of mirror pages fo
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | mirror-pages (this schema) |
+| [@id](#id) | `const` | **Required** | mirror-pages (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | mirror-pages (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | mirror-pages (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | mirror-pages (this schema) |

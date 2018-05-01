@@ -47,7 +47,7 @@ The server date and time when the resource was created in the repository, such a
 `repo:createDate`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:createDate)
+* defined in [Common Properties](../external/repo/common.schema.md#repocreatedate)
 
 ### repo:createDate Type
 
@@ -72,7 +72,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:lastModifiedDate`
 * is optional
 * type: `string`
-* defined in [Common Properties](../external/repo/common.schema.md#repo:lastModifiedDate)
+* defined in [Common Properties](../external/repo/common.schema.md#repolastmodifieddate)
 
 ### repo:lastModifiedDate Type
 

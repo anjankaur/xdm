@@ -25,7 +25,7 @@ Number of actions during a checkout process of a product list, there can be more
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | checkouts (this schema) |
+| [@id](#id) | `const` | **Required** | checkouts (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | checkouts (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | checkouts (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | checkouts (this schema) |

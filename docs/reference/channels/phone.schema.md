@@ -29,8 +29,8 @@ The telephone. Includes both inbound and outbound.
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | Phone (this schema) |
-| [@type](#@type) | `const` | Optional | Phone (this schema) |
+| [@id](#id) | `const` | **Required** | Phone (this schema) |
+| [@type](#type) | `const` | Optional | Phone (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | Phone (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | Phone (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | Phone (this schema) |

@@ -25,7 +25,7 @@ The direct-marketing metric non-deliverables describes the umber of asynchronous
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | non-deliverables (this schema) |
+| [@id](#id) | `const` | **Required** | non-deliverables (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | non-deliverables (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | non-deliverables (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | non-deliverables (this schema) |

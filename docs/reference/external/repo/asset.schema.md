@@ -105,7 +105,7 @@ The physical or digital manifestation of the resource. Typically, Format should 
 `dc:format`
 * is **required**
 * type: `string`
-* defined in [Common Properties](common.schema.md#dc:format)
+* defined in [Common Properties](common.schema.md#dcformat)
 
 ### dc:format Type
 
@@ -171,7 +171,7 @@ The server date and time when the resource was created in the repository, such a
 `repo:createDate`
 * is optional
 * type: `string`
-* defined in [Common Properties](common.schema.md#repo:createDate)
+* defined in [Common Properties](common.schema.md#repocreatedate)
 
 ### repo:createDate Type
 
@@ -216,7 +216,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:lastModifiedDate`
 * is **required**
 * type: `string`
-* defined in [Common Properties](common.schema.md#repo:lastModifiedDate)
+* defined in [Common Properties](common.schema.md#repolastmodifieddate)
 
 ### repo:lastModifiedDate Type
 
@@ -240,7 +240,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:name`
 * is **required**
 * type: `string`
-* defined in [Common Properties](common.schema.md#repo:name)
+* defined in [Common Properties](common.schema.md#reponame)
 
 ### repo:name Type
 
@@ -258,7 +258,7 @@ The server date and time when the resource was most recently modified in the rep
 `repo:path`
 * is **required**
 * type: `string`
-* defined in [Common Properties](common.schema.md#repo:path)
+* defined in [Common Properties](common.schema.md#repopath)
 
 ### repo:path Type
 

@@ -32,8 +32,8 @@ Such as, to define experiences for which you want to keep a trace of the populat
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | E-Mail (this schema) |
-| [@type](#@type) | `const` | Optional | E-Mail (this schema) |
+| [@id](#id) | `const` | **Required** | E-Mail (this schema) |
+| [@type](#type) | `const` | Optional | E-Mail (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | E-Mail (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | E-Mail (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | E-Mail (this schema) |

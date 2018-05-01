@@ -23,6 +23,13 @@ The type determines how the component will be displayed, rendered, and authored.
 
 ```json
 {
+  "@type": "https://francois.corp.adobe.com:4502/apps/foundation/title",
+  "dc:title": "Protect Your Eyes"
+}
+```
+
+```json
+{
   "@type": "https://francois.corp.adobe.com:4502/apps/foundation/image",
   "image": {
     "@type": "https://ns.adobe.com/xdm/assets/asset",
@@ -32,19 +39,12 @@ The type determines how the component will be displayed, rendered, and authored.
 }
 ```
 
-```json
-{
-  "@type": "https://francois.corp.adobe.com:4502/apps/foundation/title",
-  "dc:title": "Protect Your Eyes"
-}
-```
-
 
 # Page Component Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@type](#@type) | `string` | Optional | Page Component (this schema) |
+| [@type](#type) | `string` | Optional | Page Component (this schema) |
 | `*` | any | Additional | this schema *allows* additional properties |
 
 ## @type

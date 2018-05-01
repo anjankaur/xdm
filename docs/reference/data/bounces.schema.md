@@ -25,7 +25,7 @@ The direct-marketing metric bounces describes the number of asynchronous message
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | bounces (this schema) |
+| [@id](#id) | `const` | **Required** | bounces (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | bounces (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | bounces (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | bounces (this schema) |

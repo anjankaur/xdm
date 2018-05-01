@@ -29,8 +29,8 @@ Telefacsimile
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | Fax (this schema) |
-| [@type](#@type) | `const` | Optional | Fax (this schema) |
+| [@id](#id) | `const` | **Required** | Fax (this schema) |
+| [@type](#type) | `const` | Optional | Fax (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | Fax (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | Fax (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | Fax (this schema) |

@@ -25,7 +25,7 @@ Number of reopens for which a product list that was no longer accessible has bee
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | product-list-reopens (this schema) |
+| [@id](#id) | `const` | **Required** | product-list-reopens (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | product-list-reopens (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | product-list-reopens (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | product-list-reopens (this schema) |

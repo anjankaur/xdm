@@ -25,7 +25,7 @@ An application that accepts messages or emit events (Facebook page, Mobile App, 
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | Application (this schema) |
+| [@id](#id) | `string` | Optional | Application (this schema) |
 | [xdm:name](#xdmname) | `string` | Optional | Application (this schema) |
 | [xdm:version](#xdmversion) | `string` | Optional | Application (this schema) |
 | `*` | any | Additional | this schema *allows* additional properties |

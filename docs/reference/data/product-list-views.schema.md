@@ -25,7 +25,7 @@ The commerce metric product-list-views describes how often a product list has be
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | product-list-views (this schema) |
+| [@id](#id) | `const` | **Required** | product-list-views (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | product-list-views (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | product-list-views (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | product-list-views (this schema) |

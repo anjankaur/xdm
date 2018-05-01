@@ -25,7 +25,7 @@ The commerce metric save-for-laters describes how often a product has been saved
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | save-for-laters (this schema) |
+| [@id](#id) | `const` | **Required** | save-for-laters (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | save-for-laters (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | save-for-laters (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | save-for-laters (this schema) |

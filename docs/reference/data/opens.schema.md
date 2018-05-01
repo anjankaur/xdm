@@ -25,7 +25,7 @@ The direct-marketing metric `opens` describes the number of times the direct mar
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | opens (this schema) |
+| [@id](#id) | `const` | **Required** | opens (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | opens (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | opens (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | opens (this schema) |

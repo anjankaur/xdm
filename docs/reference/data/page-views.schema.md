@@ -25,7 +25,7 @@ The web metric page-views describes the number of impressions of a web page.
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | page-views (this schema) |
+| [@id](#id) | `const` | **Required** | page-views (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | page-views (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | page-views (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | page-views (this schema) |

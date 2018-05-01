@@ -29,8 +29,8 @@ Line Platform Notification
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | LINE (this schema) |
-| [@type](#@type) | `const` | Optional | LINE (this schema) |
+| [@id](#id) | `const` | **Required** | LINE (this schema) |
+| [@type](#type) | `const` | Optional | LINE (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | LINE (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | LINE (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | LINE (this schema) |

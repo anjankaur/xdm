@@ -57,7 +57,7 @@ Height of the artboard
 `xdm:height`
 * is optional
 * type: `integer`
-* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdm:height)
+* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdmheight)
 
 ### xdm:height Type
 
@@ -96,7 +96,7 @@ Origin X position - Base system is cartesian, relative to master page and origin
 `xdm:originX`
 * is optional
 * type: `integer`
-* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdm:originX)
+* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdmoriginx)
 
 ### xdm:originX Type
 
@@ -116,7 +116,7 @@ Origin Y position - Base system is cartesian, relative to master page and origin
 `xdm:originY`
 * is optional
 * type: `integer`
-* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdm:originY)
+* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdmoriginy)
 
 ### xdm:originY Type
 
@@ -136,7 +136,7 @@ Unit used for artboard coordinates (`originX`, `originY`, `width` and `height`).
 `xdm:unit`
 * is optional
 * type: `string`
-* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdm:unit)
+* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdmunit)
 
 ### xdm:unit Type
 
@@ -156,7 +156,7 @@ Width of the artboard
 `xdm:width`
 * is optional
 * type: `integer`
-* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdm:width)
+* defined in [Rectangular Object (measured in variable unit)](variable-unit-rectangular.schema.md#xdmwidth)
 
 ### xdm:width Type
 

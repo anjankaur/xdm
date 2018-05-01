@@ -25,7 +25,7 @@ The commerce metric product-views describes the number of product views that hav
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | product-views (this schema) |
+| [@id](#id) | `const` | **Required** | product-views (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | product-views (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | product-views (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | product-views (this schema) |

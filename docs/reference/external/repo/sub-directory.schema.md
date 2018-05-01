@@ -91,7 +91,7 @@ The physical or digital manifestation of the resource. Typically, Format should 
 `dc:format`
 * is **required**
 * type: `string`
-* defined in [Common Properties](common.schema.md#dc:format)
+* defined in [Common Properties](common.schema.md#dcformat)
 
 ### dc:format Type
 
@@ -122,7 +122,7 @@ All instances must conform to this regular expression
 `repo:name`
 * is **required**
 * type: `string`
-* defined in [Common Properties](common.schema.md#repo:name)
+* defined in [Common Properties](common.schema.md#reponame)
 
 ### repo:name Type
 
@@ -140,7 +140,7 @@ All instances must conform to this regular expression
 `repo:path`
 * is **required**
 * type: `string`
-* defined in [Common Properties](common.schema.md#repo:path)
+* defined in [Common Properties](common.schema.md#repopath)
 
 ### repo:path Type
 

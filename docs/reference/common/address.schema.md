@@ -40,7 +40,7 @@ A postal address. Address could relate to a person's home, work, preferred store
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | [Geo Coordinates](../external/schema/geocoordinates.schema.md#@id) |
+| [@id](#id) | `string` | Optional | [Geo Coordinates](../external/schema/geocoordinates.schema.md#id) |
 | [schema:description](#schemadescription) | `string` | Optional | [Geo Coordinates](../external/schema/geocoordinates.schema.md#schemadescription) |
 | [schema:elevation](#schemaelevation) | `number` | Optional | [Geo Coordinates](../external/schema/geocoordinates.schema.md#schemaelevation) |
 | [schema:latitude](#schemalatitude) | `number` | Optional | [Geo Coordinates](../external/schema/geocoordinates.schema.md#schemalatitude) |
@@ -76,7 +76,7 @@ The unique identifier of the coordinates.
 `@id`
 * is optional
 * type: `string`
-* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#@id)
+* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#id)
 
 ### @id Type
 
@@ -97,7 +97,7 @@ A description of what the coordinates identify.
 `schema:description`
 * is optional
 * type: `string`
-* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schema:description)
+* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schemadescription)
 
 ### schema:description Type
 
@@ -117,7 +117,7 @@ The specific elevation of the defined coordinate. The value conforms to the [WGS
 `schema:elevation`
 * is optional
 * type: `number`
-* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schema:elevation)
+* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schemaelevation)
 
 ### schema:elevation Type
 
@@ -137,7 +137,7 @@ The signed vertical coordinate of a geographic point.
 `schema:latitude`
 * is optional
 * type: `number`
-* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schema:latitude)
+* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schemalatitude)
 
 ### schema:latitude Type
 
@@ -158,7 +158,7 @@ The signed horizontal coordinate of a geographic point.
 `schema:longitude`
 * is optional
 * type: `number`
-* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schema:longitude)
+* defined in [Geo Coordinates](../external/schema/geocoordinates.schema.md#schemalongitude)
 
 ### schema:longitude Type
 
@@ -179,7 +179,7 @@ The name of the city.
 `xdm:city`
 * is optional
 * type: `string`
-* defined in [Geo](geo.schema.md#xdm:city)
+* defined in [Geo](geo.schema.md#xdmcity)
 
 ### xdm:city Type
 
@@ -219,7 +219,7 @@ The two-character [ISO 3166-1 alpha-2](https://datahub.io/core/country-list) cod
 `xdm:countryCode`
 * is optional
 * type: `string`
-* defined in [Geo](geo.schema.md#xdm:countryCode)
+* defined in [Geo](geo.schema.md#xdmcountrycode)
 
 ### xdm:countryCode Type
 
@@ -247,7 +247,7 @@ The Data Set Files in Catalog Services which has been originating the creation o
 `xdm:createdByBatchID`
 * is optional
 * type: `string`
-* defined in [Audit Trail](auditable.schema.md#xdm:createdByBatchID)
+* defined in [Audit Trail](auditable.schema.md#xdmcreatedbybatchid)
 
 ### xdm:createdByBatchID Type
 
@@ -268,7 +268,7 @@ The Nielsen Media Research designated market area.
 `xdm:dmaID`
 * is optional
 * type: `integer`
-* defined in [Geo](geo.schema.md#xdm:dmaID)
+* defined in [Geo](geo.schema.md#xdmdmaid)
 
 ### xdm:dmaID Type
 
@@ -331,7 +331,7 @@ At creation time, `modifiedByBatchID` is set as `createdByBatchID`.
 `xdm:modifiedByBatchID`
 * is optional
 * type: `string`
-* defined in [Audit Trail](auditable.schema.md#xdm:modifiedByBatchID)
+* defined in [Audit Trail](auditable.schema.md#xdmmodifiedbybatchid)
 
 ### xdm:modifiedByBatchID Type
 
@@ -352,7 +352,7 @@ The Metropolitan Statistical Area in the USA where the observation occurred.
 `xdm:msaID`
 * is optional
 * type: `integer`
-* defined in [Geo](geo.schema.md#xdm:msaID)
+* defined in [Geo](geo.schema.md#xdmmsaid)
 
 ### xdm:msaID Type
 
@@ -372,7 +372,7 @@ The postal code of the location. Postal codes are not available for all countrie
 `xdm:postalCode`
 * is optional
 * type: `string`
-* defined in [Geo](geo.schema.md#xdm:postalCode)
+* defined in [Geo](geo.schema.md#xdmpostalcode)
 
 ### xdm:postalCode Type
 
@@ -433,7 +433,7 @@ User id who has created the entity.
 `xdm:repositoryCreatedBy`
 * is optional
 * type: `string`
-* defined in [Audit Trail](auditable.schema.md#xdm:repositoryCreatedBy)
+* defined in [Audit Trail](auditable.schema.md#xdmrepositorycreatedby)
 
 ### xdm:repositoryCreatedBy Type
 
@@ -455,7 +455,7 @@ At creation time, `modifiedByUser` is set as `createdByUser`.
 `xdm:repositoryLastModifiedBy`
 * is optional
 * type: `string`
-* defined in [Audit Trail](auditable.schema.md#xdm:repositoryLastModifiedBy)
+* defined in [Audit Trail](auditable.schema.md#xdmrepositorylastmodifiedby)
 
 ### xdm:repositoryLastModifiedBy Type
 
@@ -475,7 +475,7 @@ The state, or province portion of the observation. The format follows the [ISO 3
 `xdm:stateProvince`
 * is optional
 * type: `string`
-* defined in [Geo](geo.schema.md#xdm:stateProvince)
+* defined in [Geo](geo.schema.md#xdmstateprovince)
 
 ### xdm:stateProvince Type
 

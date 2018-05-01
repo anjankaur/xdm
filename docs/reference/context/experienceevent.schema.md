@@ -156,7 +156,7 @@ The core ExperienceEvent XDM is used to capture observations that are altering o
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | ExperienceEvent (this schema) |
+| [@id](#id) | `string` | Optional | ExperienceEvent (this schema) |
 | [xdm:application](#xdmapplication) | Application | Optional | ExperienceEvent (this schema) |
 | [xdm:channel](#xdmchannel) | `string` | Optional | ExperienceEvent (this schema) |
 | [xdm:commerce](#xdmcommerce) | Commerce | Optional | ExperienceEvent (this schema) |

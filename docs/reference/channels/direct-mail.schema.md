@@ -29,8 +29,8 @@ Mail delivered by a postal service.
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | Direct Mail (this schema) |
-| [@type](#@type) | `const` | Optional | Direct Mail (this schema) |
+| [@id](#id) | `const` | **Required** | Direct Mail (this schema) |
+| [@type](#type) | `const` | Optional | Direct Mail (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | Direct Mail (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | Direct Mail (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | Direct Mail (this schema) |

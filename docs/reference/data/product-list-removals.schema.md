@@ -25,7 +25,7 @@ The commerce metric product-list-removals describes the number of times a produc
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | product-list-removals (this schema) |
+| [@id](#id) | `const` | **Required** | product-list-removals (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | product-list-removals (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | product-list-removals (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | product-list-removals (this schema) |

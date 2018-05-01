@@ -53,10 +53,10 @@ Additionally, this schema can include a property that describes the data source 
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [https://ns.adobe.com/experience/analytics](#https//ns.adobe.com/experience/analytics) | Identity | Optional | End User IDs (this schema) |
-| [https://ns.adobe.com/experience/campaign](#https//ns.adobe.com/experience/campaign) | Identity | Optional | End User IDs (this schema) |
-| [https://ns.adobe.com/experience/mcid](#https//ns.adobe.com/experience/mcid) | Identity | Optional | End User IDs (this schema) |
-| [https://ns.adobe.com/experience/tntid](#https//ns.adobe.com/experience/tntid) | Identity | Optional | End User IDs (this schema) |
+| [https://ns.adobe.com/experience/analytics](#httpsnsadobecomexperienceanalytics) | Identity | Optional | End User IDs (this schema) |
+| [https://ns.adobe.com/experience/campaign](#httpsnsadobecomexperiencecampaign) | Identity | Optional | End User IDs (this schema) |
+| [https://ns.adobe.com/experience/mcid](#httpsnsadobecomexperiencemcid) | Identity | Optional | End User IDs (this schema) |
+| [https://ns.adobe.com/experience/tntid](#httpsnsadobecomexperiencetntid) | Identity | Optional | End User IDs (this schema) |
 | `.+//.+` | reference | Pattern | End User IDs (this schema) |
 | `*` | any | Additional | this schema *allows* additional properties |
 

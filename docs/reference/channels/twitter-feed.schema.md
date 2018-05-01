@@ -29,8 +29,8 @@ The Twitter Feed, i.e. the stream of user-generated tweets. This does not includ
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | Twitter Feed (this schema) |
-| [@type](#@type) | `const` | Optional | Twitter Feed (this schema) |
+| [@id](#id) | `const` | **Required** | Twitter Feed (this schema) |
+| [@type](#type) | `const` | Optional | Twitter Feed (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | Twitter Feed (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | Twitter Feed (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | Twitter Feed (this schema) |

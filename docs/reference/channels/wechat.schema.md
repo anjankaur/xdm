@@ -29,8 +29,8 @@ WeChat Platform Notification
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | WeChat (this schema) |
-| [@type](#@type) | `const` | Optional | WeChat (this schema) |
+| [@id](#id) | `const` | **Required** | WeChat (this schema) |
+| [@type](#type) | `const` | Optional | WeChat (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | WeChat (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | WeChat (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | WeChat (this schema) |

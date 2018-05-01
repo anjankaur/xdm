@@ -29,8 +29,8 @@ Amazon Device Messaging
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | ADM (this schema) |
-| [@type](#@type) | `const` | Optional | ADM (this schema) |
+| [@id](#id) | `const` | **Required** | ADM (this schema) |
+| [@type](#type) | `const` | Optional | ADM (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | ADM (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | ADM (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | ADM (this schema) |

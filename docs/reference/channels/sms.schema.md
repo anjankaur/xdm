@@ -29,8 +29,8 @@ Short Message Service delivered to a mobile phone.
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | SMS (this schema) |
-| [@type](#@type) | `const` | Optional | SMS (this schema) |
+| [@id](#id) | `const` | **Required** | SMS (this schema) |
+| [@type](#type) | `const` | Optional | SMS (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | SMS (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | SMS (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | SMS (this schema) |

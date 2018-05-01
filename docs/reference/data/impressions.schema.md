@@ -25,7 +25,7 @@ The advertising metric impressions describes…
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | impressions (this schema) |
+| [@id](#id) | `const` | **Required** | impressions (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | impressions (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | impressions (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | impressions (this schema) |

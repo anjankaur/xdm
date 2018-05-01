@@ -29,8 +29,8 @@ Baidu Cloud Push Service
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | Baidu (this schema) |
-| [@type](#@type) | `const` | Optional | Baidu (this schema) |
+| [@id](#id) | `const` | **Required** | Baidu (this schema) |
+| [@type](#type) | `const` | Optional | Baidu (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | Baidu (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | Baidu (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | Baidu (this schema) |

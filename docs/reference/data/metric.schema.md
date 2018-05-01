@@ -31,7 +31,7 @@ Through XDM's extensibility mechanism, new metrics can be defined by extending `
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | **Required** | Metric (this schema) |
+| [@id](#id) | `string` | **Required** | Metric (this schema) |
 | [schema:name](#schemaname) | `string` | **Required** | Metric (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `string` | **Required** | Metric (this schema) |
 | [xdm:unit](#xdmunit) | `string` | **Required** | Metric (this schema) |

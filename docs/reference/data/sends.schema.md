@@ -25,7 +25,7 @@ The direct-marketing metric sends describes the number of asynchronous messages 
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | sends (this schema) |
+| [@id](#id) | `const` | **Required** | sends (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | sends (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | sends (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | sends (this schema) |

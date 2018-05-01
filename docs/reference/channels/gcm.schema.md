@@ -29,8 +29,8 @@ Google Cloud Messaging
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | GCM (this schema) |
-| [@type](#@type) | `const` | Optional | GCM (this schema) |
+| [@id](#id) | `const` | **Required** | GCM (this schema) |
+| [@type](#type) | `const` | Optional | GCM (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | GCM (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | GCM (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | GCM (this schema) |

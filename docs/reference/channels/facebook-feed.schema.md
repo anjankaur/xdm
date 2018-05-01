@@ -29,8 +29,8 @@ The Facebook News Feed. This does not include Facebook Messenger, or Facebook Ap
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | Facebook News Feed (this schema) |
-| [@type](#@type) | `const` | Optional | Facebook News Feed (this schema) |
+| [@id](#id) | `const` | **Required** | Facebook News Feed (this schema) |
+| [@type](#type) | `const` | Optional | Facebook News Feed (this schema) |
 | [xdm:contentTypes](#xdmcontenttypes) | `const` | Optional | Facebook News Feed (this schema) |
 | [xdm:locationTypes](#xdmlocationtypes) | `const` | Optional | Facebook News Feed (this schema) |
 | [xdm:metricTypes](#xdmmetrictypes) | `const` | Optional | Facebook News Feed (this schema) |

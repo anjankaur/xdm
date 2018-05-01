@@ -25,7 +25,7 @@ The web metric link-clicks describes the number of clicks on a link on a web pag
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | link-clicks (this schema) |
+| [@id](#id) | `const` | **Required** | link-clicks (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | link-clicks (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | link-clicks (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | link-clicks (this schema) |

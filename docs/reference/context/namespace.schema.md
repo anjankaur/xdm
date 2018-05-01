@@ -24,7 +24,7 @@ The namespace or unique identifier associated with a collection of data. Each En
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | Namespace (this schema) |
+| [@id](#id) | `string` | Optional | Namespace (this schema) |
 | [xdm:code](#xdmcode) | `string` | Optional | Namespace (this schema) |
 | `*` | any | Additional | this schema *allows* additional properties |
 

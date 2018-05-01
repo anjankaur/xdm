@@ -25,7 +25,7 @@ The direct-marketing metric `not-sent` describes the number of asynchronous mess
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | not-sent (this schema) |
+| [@id](#id) | `const` | **Required** | not-sent (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | not-sent (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | not-sent (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | not-sent (this schema) |

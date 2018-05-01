@@ -25,7 +25,7 @@ The commerce metric product-list-opens describes how many new product lists have
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | product-list-opens (this schema) |
+| [@id](#id) | `const` | **Required** | product-list-opens (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | product-list-opens (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | product-list-opens (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | product-list-opens (this schema) |

@@ -31,7 +31,7 @@ Identity is used to clearly distinguish people that are interacting with digital
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `string` | Optional | Identity (this schema) |
+| [@id](#id) | `string` | Optional | Identity (this schema) |
 | [xdm:namespace](#xdmnamespace) | Namespace | Optional | Identity (this schema) |
 | [xdm:xid](#xdmxid) | `string` | Optional | Identity (this schema) |
 | `*` | any | Additional | this schema *allows* additional properties |

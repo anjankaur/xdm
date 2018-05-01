@@ -25,7 +25,7 @@ The direct-marketing metric `unsubscriptions` describes the number of times the 
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@id](#@id) | `const` | **Required** | unsubscriptions (this schema) |
+| [@id](#id) | `const` | **Required** | unsubscriptions (this schema) |
 | [schema:name](#schemaname) | `const` | **Required** | unsubscriptions (this schema) |
 | [xdm:measurement](#xdmmeasurement) | `const` | **Required** | unsubscriptions (this schema) |
 | [xdm:unit](#xdmunit) | `const` | **Required** | unsubscriptions (this schema) |

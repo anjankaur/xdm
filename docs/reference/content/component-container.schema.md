@@ -46,7 +46,7 @@ A container for `Page Component`s, this means for content blocks that are within
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [@type](#@type) | `string` | **Required** | Component Container (this schema) |
+| [@type](#type) | `string` | **Required** | Component Container (this schema) |
 | [xdm:items](#xdmitems) | `object` | **Required** | Component Container (this schema) |
 | [xdm:itemsOrder](#xdmitemsorder) | `string[]` | Optional | Component Container (this schema) |
 | `*` | any | Additional | this schema *allows* additional properties |
